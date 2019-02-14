@@ -97,4 +97,41 @@ option = {
  &nbsp; &nbsp; &nbsp;  }
  &nbsp;  ]
 };
-</pre><p><br></p><p><br></p><p><br></p><p><br></p><p>app.title = '世界人口总量 - 条形图';</p><p><br></p><p>option = {</p><p>&nbsp;&nbsp;title: {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;text: '世界人口总量',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;subtext: '数据来自网络'</p><p>&nbsp;&nbsp;},</p><p>&nbsp;&nbsp;tooltip: {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;trigger: 'axis',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;axisPointer: {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type: 'shadow'</p><p>&nbsp;&nbsp;&nbsp;&nbsp;}</p><p>&nbsp;&nbsp;},</p><p>&nbsp;&nbsp;legend: {&nbsp;// 图标</p><p>&nbsp;&nbsp;&nbsp;&nbsp;data: ['2011年', '2012年']</p><p>&nbsp;&nbsp;},</p><p>&nbsp;&nbsp;grid: {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;left: '3%',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;right: '4%',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;bottom: '3%',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;containLabel: true</p><p>&nbsp;&nbsp;},</p><p>&nbsp;&nbsp;xAxis: {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;type: 'value',&nbsp;&nbsp;//数据</p><p>&nbsp;&nbsp;&nbsp;&nbsp;boundaryGap: [0, 0.01]</p><p>&nbsp;&nbsp;},</p><p>&nbsp;&nbsp;yAxis: {</p><p>&nbsp;&nbsp;&nbsp;&nbsp;type: 'category',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;data: ['巴西','印尼','美国','印度','中国','世界人口(万)']</p><p>&nbsp;&nbsp;},</p><p>&nbsp;&nbsp;series: [</p><p>&nbsp;&nbsp;&nbsp;&nbsp;{</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: '2011年',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type: 'bar',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data: [18203, 23489, 29034, 104970, 131744, 630230]</p><p>&nbsp;&nbsp;&nbsp;&nbsp;},</p><p>&nbsp;&nbsp;&nbsp;&nbsp;{</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;name: '2012年',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;type: 'bar',</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;data: [19325, 23438, 31000, 121594, 134141, 681807]</p><p>&nbsp;&nbsp;&nbsp;&nbsp;}</p><p>&nbsp;&nbsp;]</p><p>};</p><p><br></p><p><br></p><h1>4.jquery 学习</h1><p><br></p><p><br></p><p><br></p><p><br></p><h1>后端知识</h1><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><h1><br></h1><p><br></p><p><br></p><p><br></p><p><br></p>
+</pre><p><br></p><p><br></p><p><br></p><p><br></p><pre class="ql-syntax" spellcheck="false">option = {
+ &nbsp; &nbsp;tooltip: {
+ &nbsp; &nbsp; &nbsp; &nbsp;trigger: 'axis',
+ &nbsp; &nbsp; &nbsp; &nbsp;axisPointer: {
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;type: 'shadow'
+ &nbsp; &nbsp; &nbsp;  }
+ &nbsp;  },
+ &nbsp; &nbsp;legend: {
+ &nbsp; &nbsp; &nbsp; &nbsp;data: ['2011年', '2012年']
+ &nbsp;  },
+ &nbsp; &nbsp;grid: {
+ &nbsp; &nbsp; &nbsp; &nbsp;left: '3%',
+ &nbsp; &nbsp; &nbsp; &nbsp;right: '4%',
+ &nbsp; &nbsp; &nbsp; &nbsp;bottom: '3%',
+ &nbsp; &nbsp; &nbsp; &nbsp;containLabel: true  图片和xzhou
+ &nbsp;  },
+ &nbsp; &nbsp;xAxis: {
+ &nbsp; &nbsp; &nbsp; &nbsp;type: 'value',数值数据
+ &nbsp; &nbsp; &nbsp; &nbsp;boundaryGap: [0, 0.01]
+ &nbsp;  },
+ &nbsp; &nbsp;yAxis: {
+ &nbsp; &nbsp; &nbsp; &nbsp;type: 'category',  离散数据
+ &nbsp; &nbsp; &nbsp; &nbsp;data: ['巴西','印尼','美国','印度','中国','世界人口(万)']
+ &nbsp;  },
+ &nbsp; &nbsp;series: [
+ &nbsp; &nbsp; &nbsp;  {
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;name: '2011年',
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;type: 'bar',
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;data: [18203, 23489, 29034, 104970, 131744, 630230]
+ &nbsp; &nbsp; &nbsp;  },
+ &nbsp; &nbsp; &nbsp;  {
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;name: '2012年',
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;type: 'bar',
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;data: [19325, 23438, 31000, 121594, 134141, 681807]
+ &nbsp; &nbsp; &nbsp;  }
+ &nbsp;  ]
+};
+</pre><p><br></p><p><br></p><h1>4.jquery 学习</h1><p><br></p><p><br></p><p><br></p><p><br></p><h1>后端知识</h1><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><h1><br></h1><p><br></p><p><br></p><p><br></p><p><br></p>
