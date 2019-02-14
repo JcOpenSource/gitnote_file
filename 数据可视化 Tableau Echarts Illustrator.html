@@ -24,16 +24,74 @@
  &nbsp;  ],
  &nbsp; &nbsp;yAxis : [  y 轴
  &nbsp; &nbsp; &nbsp;  {
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;type : 'value'
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;type : 'value'   数据data
  &nbsp; &nbsp; &nbsp;  }
  &nbsp;  ],
  &nbsp; &nbsp;series : [
  &nbsp; &nbsp; &nbsp;  {
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;name:'直接访问',
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;type:'bar',
- &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;barWidth: '60%',
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;type:'bar',  条状
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;barWidth: '60%',  宽度 
  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;data:[10, 52, 200, 334, 390, 330, 220]
  &nbsp; &nbsp; &nbsp;  }
  &nbsp;  ]
 };
-</pre><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><h1>4.jquery 学习</h1><p><br></p><p><br></p><p><br></p><p><br></p><h1>后端知识</h1><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><h1><br></h1><p><br></p><p><br></p><p><br></p><p><br></p>
+</pre><p><br></p><p><br></p><p><br></p><pre class="ql-syntax" spellcheck="false">var labelRight = {
+ &nbsp; &nbsp;normal: {
+ &nbsp; &nbsp; &nbsp; &nbsp;position: 'right'
+ &nbsp;  }
+};
+option = {
+ &nbsp; &nbsp;title: {
+ &nbsp; &nbsp; &nbsp; &nbsp;text: '交错正负轴标签',
+ &nbsp; &nbsp; &nbsp; &nbsp;subtext: 'From ExcelHome',
+ &nbsp; &nbsp; &nbsp; &nbsp;sublink: 'http://e.weibo.com/1341556070/AjwF2AgQm'
+ &nbsp;  },
+ &nbsp; &nbsp;tooltip : {
+ &nbsp; &nbsp; &nbsp; &nbsp;trigger: 'axis',
+ &nbsp; &nbsp; &nbsp; &nbsp;axisPointer : { &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// 坐标轴指示器，坐标轴触发有效
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;type : 'shadow' &nbsp; &nbsp; &nbsp; &nbsp;// 默认为直线，可选为：'line' | 'shadow'
+ &nbsp; &nbsp; &nbsp;  }
+ &nbsp;  },
+ &nbsp; &nbsp;grid: {
+ &nbsp; &nbsp; &nbsp; &nbsp;top: 80,
+ &nbsp; &nbsp; &nbsp; &nbsp;bottom: 30
+ &nbsp;  },
+ &nbsp; &nbsp;xAxis: {
+ &nbsp; &nbsp; &nbsp; &nbsp;type : 'value',
+ &nbsp; &nbsp; &nbsp; &nbsp;position: 'top',
+ &nbsp; &nbsp; &nbsp; &nbsp;splitLine: {lineStyle:{type:'dashed'}},
+ &nbsp;  },
+ &nbsp; &nbsp;yAxis: {
+ &nbsp; &nbsp; &nbsp; &nbsp;type : 'category',
+ &nbsp; &nbsp; &nbsp; &nbsp;axisLine: {show: false},
+ &nbsp; &nbsp; &nbsp; &nbsp;axisLabel: {show: false},
+ &nbsp; &nbsp; &nbsp; &nbsp;axisTick: {show: false},
+ &nbsp; &nbsp; &nbsp; &nbsp;splitLine: {show: false},
+ &nbsp; &nbsp; &nbsp; &nbsp;data : ['ten', 'nine', 'eight', 'seven', 'six', 'five', 'four', 'three', 'two', 'one']
+ &nbsp;  },
+ &nbsp; &nbsp;series : [
+ &nbsp; &nbsp; &nbsp;  {
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;name:'生活费',
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;type:'bar',
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;label: {
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;normal: {
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;show: true,
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;formatter: '{b}'
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  }
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  },
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;data:[
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  {value: -0.07, label: labelRight},
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  {value: -0.09, label: labelRight},
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0.2, 0.44,
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  {value: -0.23, label: labelRight},
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0.08,
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  {value: -0.17, label: labelRight},
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0.47,
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  {value: -0.36, label: labelRight},
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;0.18
+ &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  ]
+ &nbsp; &nbsp; &nbsp;  }
+ &nbsp;  ]
+};
+</pre><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><h1>4.jquery 学习</h1><p><br></p><p><br></p><p><br></p><p><br></p><h1>后端知识</h1><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p><h1><br></h1><p><br></p><p><br></p><p><br></p><p><br></p>
