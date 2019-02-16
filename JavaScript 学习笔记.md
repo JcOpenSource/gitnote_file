@@ -59,6 +59,8 @@ typeof 返回类型
 
 ![image.png](13)
 
+![image.png](15)
+
 
 
 
