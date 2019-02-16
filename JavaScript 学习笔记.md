@@ -14,3 +14,6 @@ javascript弱类型语言
 六中数据类型，其中一种是对象，5中原始类型
 ![image.png](0)
 
+
+
+![image.png](1)
