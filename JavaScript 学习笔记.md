@@ -54,6 +54,7 @@ typeof 返回类型
 历史原因
 ![image.png](10)
 
+![image.png](12)
 
 
 
