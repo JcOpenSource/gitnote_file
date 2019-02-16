@@ -34,6 +34,7 @@ javascript弱类型语言
 ## 包装对象
 ![image.png](5)
 
+都有自己的对象模式
 
 包装类：
 ![image.png](6)
