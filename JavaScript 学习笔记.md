@@ -28,15 +28,20 @@ javascript弱类型语言
 对象是引用进行比较而不是值进行比较
 ![image.png](3)
 
+等于 
+![image.png](4)
+
+## 包装对象
+![image.png](5)
 
 
+包装类：
+![image.png](6)
 
 
+![image.png](7)
 
-
-
-
-
+javascript 包装类型 转换 为对象
 
 
 
