@@ -4,3 +4,4 @@
 * 网址：https://www.imooc.com/learn/277
 
 
+javascript弱类型语言
