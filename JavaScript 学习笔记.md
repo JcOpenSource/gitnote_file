@@ -5,3 +5,6 @@
 
 
 javascript弱类型语言
+
+参考资料：https://developer.mozilla.org/zh-CN/docs/learn/JavaScript
+
