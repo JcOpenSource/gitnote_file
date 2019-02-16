@@ -44,7 +44,7 @@ javascript弱类型语言
 
 javascript 包装类型 转换 为对象
 
-
+检测类型
 
 
 
