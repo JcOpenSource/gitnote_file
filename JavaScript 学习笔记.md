@@ -1,3 +1,4 @@
 
 
-> 课程该书：
+* 课程名称：JavaScript深入浅出
+* 网址：https://www.imooc.com/learn/277
