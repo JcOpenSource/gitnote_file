@@ -9,6 +9,8 @@ javascript弱类型语言
 参考资料：https://developer.mozilla.org/zh-CN/docs/learn/JavaScript
 
 * 定义变量无需指定类型 背后有很多隐式准换逻辑
+* “32” - 32 = 0
 
 六中数据类型，其中一种是对象，5中原始类型
 ![image.png](0)
+
