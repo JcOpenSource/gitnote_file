@@ -50,8 +50,9 @@ javascript 包装类型 转换 为对象
 ![image.png](9)
 
 typeof 返回类型
-
-
+![image.png](11)
+历史原因
+![image.png](10)
 
 
 
