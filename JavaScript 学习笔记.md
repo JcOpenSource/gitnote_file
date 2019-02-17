@@ -73,7 +73,10 @@ block 块 {}
 
 
 
-new 原型链  prototype 
+new 原型链  prototype   原型  
+Object.prototype 
+
+
 
 
 
