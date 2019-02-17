@@ -69,6 +69,7 @@ typeof 返回类型
 
 window 全局变量
 
+block 块 {}
 
 
 
